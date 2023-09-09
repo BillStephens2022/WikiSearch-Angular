@@ -1,25 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bulma/css/bulma.css";
 
 body {
   background-color: lightsalmon;
   color: white;
   text-align: center;
+  height: 100vh;
 }
 
 h1 {
+  padding: 2rem;
   letter-spacing: 0.25rem;
   font-weight: 900;
   font-size: 3rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 2px 2px 3px slategray;
 }
 
 input {
-    width: 15rem;
-    height: 2rem;
-    border-radius: 5px;
-    border: 3px white solid;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: 3px white solid;
+  
+
 }
 
 input:focus {
-    border: 3px steelblue solid;
+  border: 3px steelblue solid;
+}
+
+.searchmatch {
+  font-weight: 900;
+  color: steelblue;
 }
