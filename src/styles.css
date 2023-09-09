@@ -5,7 +5,8 @@ body {
   background-color: lightsalmon;
   color: white;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 2rem;
 }
 
 h1 {
@@ -22,8 +23,6 @@ input {
   height: 2rem;
   border-radius: 5px;
   border: 3px white solid;
-  
-
 }
 
 input:focus {
